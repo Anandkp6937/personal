@@ -1,0 +1,2 @@
+color-background:BE9FE1;
+color-bigfont:#2D4059;

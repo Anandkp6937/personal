@@ -444,7 +444,8 @@ body{
 .skills p,
 .skill
 {
-  margin-left:20px;
+  margin-left:10px;
+  margin-right:10px;
 }
 .project h2,
 .project h3{

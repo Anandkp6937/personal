@@ -79,7 +79,7 @@ cursor:pointer;
 }
 .menu{
   /* background: #a85a70; */
-  margin-left:250px;
+  margin-left:100px;
   transition: .7s;
   cursor: pointer;
   display: none;
@@ -456,12 +456,16 @@ margin-left:20px;
 }
 .col1{
   /* background:var(--nav-bar-color); */
-    margin-left:20px;
+    margin-left:10px;
+    margin-right:20px;
     padding:10px;
 }
 .review h2,
 .review h3{
   margin-right:30px;
+}
+.logo{
+
 }
 
 }
@@ -471,11 +475,24 @@ margin-left:20px;
   body{
   /* background:#571528; */
 }
+.info p,
+.skills p{
+  font-size:20px;
+  margin-right:10px;
+}
 .menu{
 display:block;
+
+}
+.logo{
+  margin-left:55px;
+}
+.menu{
+
 }
 .header{
-  justify-content: flex-start;
+  justify-content: flex-end;
+
 }
 .container1 img{
 
@@ -485,17 +502,17 @@ display:block;
   height:auto;
 }
 .navigation-bar ul{
-  margin-top:5px;
+  margin-top:2px;
     flex-direction: column;
     transition:.5s;
-    border-top-left-radius:15px;
-border-bottom-left-radius:15px;
-border-bottom-right-radius:15px;
+    border-top-left-radius:5px;
+border-bottom-left-radius:5px;
+border-bottom-right-radius:5px;
     position:absolute;
     justify-content:flex-start;
     align-items: center;
     gap:70px;
-width:30%;
+width:40%;
 height:70vh;
 top:0;
 left:65%;
@@ -507,7 +524,7 @@ left:65%;
     display:block;
     position: absolute;
     top:2%;
-    left:70%;
+    left:56%;
 /* margin-top:-50px;
 margin-left:100px; */
 font-size:30px;
@@ -527,5 +544,12 @@ color:#fff;
     transition:.7s;
 display: none;
 }
+.gridcolums{
+  font-size:10px;
+}
+.response h1{
+  font-size:20px;
+}
+
 
 }

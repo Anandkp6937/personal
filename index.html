@@ -118,8 +118,8 @@
 <div class="response">
   <h1>If You Like My Website</h1>
 
-  <form name="list" class="reviewform"  >
-    <input type="text" name="name" class="input-name" placeholder="enter your name" value="">
+  <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+    <input type="text" name="Name" class="input-name" placeholder="enter your name" value="">
     <button type="button"  class="like" name="button">Like</button>
     <input type="submit"  class="send" name="submit" value="send" onsubmit="emailform();reset(); return false">
   </form>
@@ -127,7 +127,6 @@
 
 </div>
   </div>
-  <script src="https://smtpjs.com/v3/smtp.js"></script>
 <script type="text/javascript" src="script.js"></script>
 <script src="https://kit.fontawesome.com/46df8192c4.js" crossorigin="anonymous"></script>
 

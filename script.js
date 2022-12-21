@@ -35,9 +35,22 @@ like.style.transform="none";
 count=0;
 }
 })
+
+function emailform(){
+  Email.send({
+  Host : "smtp.elasticemail.com",
+  Username : "username",
+  Password : "password",
+  To : 'them@website.com',
+  From : "you@isp.com",
+  Subject : "This is the subject",
+  Body : "And this is the body"
+}).then(
+message => alert(message)
+);
 send.addEventListener("click",function(e){
   e.preventDefault();
-
+emailform()
   console.log(inputname.value);
   if(inputname.value=="" &&count==0){
     alert("invalid operation");

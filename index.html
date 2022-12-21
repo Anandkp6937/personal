@@ -118,46 +118,31 @@
 <div class="response">
   <h1>If You Like My Website</h1>
 
-  <form name="list" class="reviewform"  onsubmit="email();reset(); return false">
+  <form name="list" class="reviewform"  >
     <input type="text" name="name" class="input-name" placeholder="enter your name" value="">
     <button type="button"  class="like" name="button">Like</button>
-    <input type="submit"  class="send" name="submit" value="send">
+    <input type="submit"  class="send" name="submit" value="send" onsubmit="emailform();reset(); return false">
   </form>
 
 
 </div>
   </div>
-<!-- end of review section -->
-<!-- end of contact section -->
-<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-<!-- <script type="text/javascript">
-var typed=new Typed(".auto-type",{
-  strings:["Coco Chanel"],
-  loop:false
-});
-
-</script> -->
-<script type="text/javascript" src=" https://smtpjs.com/v3/smtp.js">
-
-function email(){
-  Email.send({
-      Host : "smtp.gmail.com",
-      Username : "anandkp6937@gmail.com",
-      Password : "stevejobs",
-      To : 'anandkp6937@gmail.com',
-      From : "",
-      Subject : "This is the subject",
-      Body : "And this is the body"
-  }).then(
-    message => alert(message)
-  );
-}
-
-
+  <script src="https://smtpjs.com/v3/smtp.js">
+  function emailform(){
+    Email.send({
+    Host : "smtp.elasticemail.com",
+    Username : "username",
+    Password : "password",
+    To : 'them@website.com',
+    From : "you@isp.com",
+    Subject : "This is the subject",
+    Body : "And this is the body"
+}).then(
+  message => alert(message)
+);
+  }
 </script>
-<script type="text/javascript" src="script.js">
-
-</script>
+<!-- <script type="text/javascript" src="script.js"></script> -->
 <script src="https://kit.fontawesome.com/46df8192c4.js" crossorigin="anonymous"></script>
 
   </body>

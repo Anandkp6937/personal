@@ -332,18 +332,22 @@ box-shadow: 10px 10px 48px -8px rgba(0,0,0,0.46);
 .response h1{
   font-family: var(--font-paragraph);
   color:#000;
-  margin-left:40px;
+  margin-left:10px;
+}
+.reviewform{
+display: flex;
+margin-top:20px;
+
 }
 .response input{
-  margin-left:40px;
-  margin-top:20px;
+  /* margin-top:20px; */
   font-family:var(--font-paragraph);
   padding:8px 16px;
   border:none;
   outline:none;
 
 }
-.response button{
+  button{
 padding:8px 16px;
 font-family:var(--font-paragraph);
 font-weight: bold;
@@ -351,13 +355,13 @@ background: var(--color);
 color:#fff;
 transition:0.2s;
 
-
 }
 
 .response button:hover{
   /* transform:scale(1.1); */
   opacity:0.8;
 }
+
 @media (max-width:1038px) {
 body{
   /* background: #20e03e; */
@@ -550,7 +554,13 @@ display: none;
 }
 .response h1{
   font-size:20px;
-}
 
+}
+.response {
+  padding:10px;
+}
+.reviewform{
+
+}
 
 }

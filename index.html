@@ -118,7 +118,7 @@
 <div class="response">
   <h1>If You Like My Website</h1>
 
-  <form name="list" class="reviewform" method="POST" data-netlify="true" onSubmit="submit">
+  <form name="list" class="reviewform"  onsubmit="email();reset(); return false">
     <input type="text" name="name" class="input-name" placeholder="enter your name" value="">
     <button type="button"  class="like" name="button">Like</button>
     <input type="submit"  class="send" name="submit" value="send">
@@ -137,9 +137,28 @@ var typed=new Typed(".auto-type",{
 });
 
 </script> -->
+<script type="text/javascript" src=" https://smtpjs.com/v3/smtp.js">
+
+function email(){
+  Email.send({
+      Host : "smtp.gmail.com",
+      Username : "anandkp6937@gmail.com",
+      Password : "stevejobs",
+      To : 'anandkp6937@gmail.com',
+      From : "",
+      Subject : "This is the subject",
+      Body : "And this is the body"
+  }).then(
+    message => alert(message)
+  );
+}
+
+
+</script>
 <script type="text/javascript" src="script.js">
 
 </script>
 <script src="https://kit.fontawesome.com/46df8192c4.js" crossorigin="anonymous"></script>
+
   </body>
 </html>

@@ -47,10 +47,10 @@ function emailform(){
   Body : "And this is the body"
 }).then(
 message => alert(message)
-);
+)};
 send.addEventListener("click",function(e){
   e.preventDefault();
-emailform()
+emailform();
   console.log(inputname.value);
   if(inputname.value=="" &&count==0){
     alert("invalid operation");

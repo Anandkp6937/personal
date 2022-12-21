@@ -35,7 +35,9 @@ like.style.transform="none";
 count=0;
 }
 })
-send.addEventListener("click",function(){
+send.addEventListener("click",function(e){
+  e.preventDefault();
+
   console.log(inputname.value);
   if(inputname.value=="" &&count==0){
     alert("invalid operation");

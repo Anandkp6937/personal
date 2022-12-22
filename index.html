@@ -118,8 +118,10 @@
 <div class="response">
   <h1>If You Like My Website</h1>
 
-  <form name="Subscribers" method="POST" data-netlify="true" onSubmit="submit">
+  <form method="POST" name="Subscribers" data-netlify="true" onSubmit="submit">
     <input type="text" name="Name" class="input-name" placeholder="enter your name" value="">
+    <input type="hidden" name="Subscribers" value="contact">
+
     <input type="submit"  class="send" name="submit" value="Subscribe">
   </form>
 

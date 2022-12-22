@@ -102,6 +102,9 @@ opacity:0.5;
 #xmark{
   display:none;
 }
+
+
+
 .container1{
   max-width:90%;
   margin:10px;
@@ -490,7 +493,15 @@ margin-left:20px;
 
 }
 
+.anime{
+  animation:right-to-left ease-in;
 
+}
+@keyframes right-to-left{
+100%{
+  transform:rotate(20deg);
+}
+}
 @media(max-width:640px){
   body{
   /* background:#571528; */
@@ -521,10 +532,11 @@ display:block;
   margin-top:-20px;
   height:auto;
 }
+
 .navigation-bar ul{
   margin-top:2px;
     flex-direction: column;
-    transition:2s;
+
     border-top-left-radius:5px;
 border-bottom-left-radius:5px;
 border-bottom-right-radius:5px;

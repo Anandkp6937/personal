@@ -1,4 +1,5 @@
 const menu=document.querySelector(".menu");
+const body=document.querySelector("body");
 const xmark=document.querySelector("#xmark");
 const like=document.querySelector(".like");
 const send=document.querySelector(".send");
@@ -12,6 +13,7 @@ function autoclose(){
 }
 
 menu.addEventListener("click",function(){
+  navigationbar.classList.add("anime");
   navigationbar.style.display='flex';
 
   autoclose()
@@ -38,6 +40,7 @@ xmark.addEventListener("click",function(){
 // })
 
 send.addEventListener("click",function(e){
+body.classList.add("body");
   e.preventDefault();
   if(inputname.value==""){
     alert("invalid response found");

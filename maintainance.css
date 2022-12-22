@@ -5,8 +5,13 @@
 }
 body{
 background: #90bede;
-
-text-align: center;
-font-weight: bolder;
-font-size: 50px;
+color:#460c54;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top:250px;
+color:
+}
+span{
+  color:#FF4949;
 }

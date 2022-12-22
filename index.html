@@ -5,7 +5,15 @@
     <title>Kp</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="style.css">
-
+    <script type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript" src="subscribers.js"></script>
+    <script type="text/javascript">
+       (function(){
+          emailjs.init("1oKOYPzRhd0b7ut_j");
+       })();
+    </script>
 
 </head>
   <body>
@@ -119,10 +127,10 @@
   <h1>If You Like My Website</h1>
 
   <form method="POST" name="Subscribers" data-netlify="true" onSubmit="submit">
-    <input type="text" name="Name" class="input-name" placeholder="enter your name" value="">
+    <input type="text" id="name" name="Name" class="input-name" placeholder="enter your name" value="">
     <input type="hidden" name="Subscribers" value="contact">
 
-    <input type="submit"  class="send" name="submit" value="Subscribe">
+    <input type="submit"  class="send" name="submit" value="Subscribe" onclick="sendMail()">
   </form>
 
 

@@ -4,6 +4,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&family=Sevillana&display=swap');
 :root{
   --background-color:#FDFFAB;
   --color:#521262;
@@ -366,7 +368,10 @@ color:#fff;
 transition:0.2s;
 
 }
-
+.projects a{
+  text-decoration: none;
+  color:#000;
+}
 .response button:hover{
   /* transform:scale(1.1); */
   opacity:0.8;
@@ -519,7 +524,7 @@ display:block;
 .navigation-bar ul{
   margin-top:2px;
     flex-direction: column;
-    transition:.5s;
+    transition:2s;
     border-top-left-radius:5px;
 border-bottom-left-radius:5px;
 border-bottom-right-radius:5px;
@@ -528,11 +533,19 @@ border-bottom-right-radius:5px;
     align-items: center;
     gap:70px;
 width:40%;
-height:70vh;
+height:75vh;
+
 top:0;
-left:65%;
+left:60%;
     background:#072d48 ;
+    /* background:#90bede; */
     z-index:100;
+
+  }
+
+  .navigation-bar a{
+    /* font-family: 'Sevillana', cursive; */
+    /* font-family: 'Lacquer', cursive; */
 
   }
   #xmark{

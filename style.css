@@ -226,10 +226,13 @@ margin-bottom:50px;
   display: flex;
   flex-direction: column;
   margin-right:50px;
-  gap:1.5rem;
+  gap:1.2rem;
   -webkit-box-shadow: 10px 10px 48px -8px rgba(0,0,0,0.46);
 -moz-box-shadow: 10px 10px 48px -8px rgba(0,0,0,0.46);
 box-shadow: 10px 10px 48px -8px rgba(0,0,0,0.46);
+}
+.tech{
+  font-weight:bolder;
 }
 .contact {
   margin-top:100px;
@@ -403,8 +406,9 @@ textarea{
 .lighter{
   font-weight: lighter;
   margin-top:10px;
-  margin-left:0px;
-  font-size:10px;
+  margin-left:10px;
+  font-size:20px;
+  opacity:0.5;
   letter-spacing:1px;
 }
 form{
@@ -501,7 +505,7 @@ body{
 }
 .skills p,
 .skill
-{  padding:10px;
+{  padding:5px;
 
   margin-left:10px;
   margin-right:10px;
@@ -537,6 +541,9 @@ textarea{
 
 
 }
+.skill p{
+  padding:2px;
+}
 }
 
 
@@ -554,7 +561,7 @@ textarea{
   /* background:#571528; */
 }
 .lighter{
-  font-size:2px;
+  font-size:19px;
   opacity:.2;
 }
 .info p,
@@ -652,5 +659,8 @@ display: none;
 .form{
     margin-top:10px;
 }
+.skill{
+  gap:.8rem;
 
+}
 }

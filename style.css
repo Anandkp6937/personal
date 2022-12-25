@@ -414,6 +414,9 @@ form{
 body{
   /* background: #20e03e; */
 }
+.lighter{
+  font-size:3px;
+}
 .container1{
   flex-direction: column;
   justify-content: center;
@@ -452,6 +455,9 @@ body{
 @media (max-width:751px) {
 body{
   /* background: ##3b5e92; */
+}
+.lighter{
+  font-size:3px;
 }
 .navigation-bar{
   transition:.7s;
@@ -640,5 +646,9 @@ display: none;
 }
 .form{
     margin-top:10px;
+}
+.lighter{
+  font-size:2px;
+  opacity:0.5;
 }
 }

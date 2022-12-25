@@ -457,7 +457,7 @@ body{
   /* background: ##3b5e92; */
 }
 .lighter{
-  font-size:3px;
+  font-size:10px;
 }
 .navigation-bar{
   transition:.7s;
@@ -501,7 +501,8 @@ body{
 }
 .skills p,
 .skill
-{
+{  padding:10px;
+
   margin-left:10px;
   margin-right:10px;
 }
@@ -551,6 +552,10 @@ textarea{
 @media(max-width:640px){
   body{
   /* background:#571528; */
+}
+.lighter{
+  font-size:2px;
+  opacity:.2;
 }
 .info p,
 .skills p{
@@ -647,8 +652,5 @@ display: none;
 .form{
     margin-top:10px;
 }
-.lighter{
-  font-size:2px;
-  opacity:0.4;
-}
+
 }

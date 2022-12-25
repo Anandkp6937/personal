@@ -1,4 +1,5 @@
 const menu=document.querySelector(".menu");
+const msg=document.querySelector("#messages");
 const body=document.querySelector("body");
 const xmark=document.querySelector("#xmark");
 const like=document.querySelector(".like");
@@ -48,5 +49,6 @@ body.classList.add("body");
   else{
     alert("thanku for your response");
     inputname.value="";
+    msg.value="";
   }
 })

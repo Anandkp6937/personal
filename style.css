@@ -578,14 +578,14 @@ display:block;
 }
 .container1 img{
 
-  max-width:85%;
+  max-width:90%;
   margin-left:-10px;
   margin-top:-20px;
   height:auto;
 }
 
 .navigation-bar ul{
-  margin-top:2px;
+  /* margin-top:2px; */
     flex-direction: column;
 
     border-top-left-radius:5px;
@@ -596,7 +596,7 @@ border-bottom-right-radius:5px;
     align-items: center;
     gap:70px;
 width:40%;
-height:75vh;
+height:100vh;
 
 top:0;
 left:60%;
@@ -629,7 +629,7 @@ color:#fff;
   }
   .navigation-bar a{
     color:#fff;
-    margin-top:50px;
+    margin-top:70px;
   }
   .navigation-bar {
     transition:.7s;

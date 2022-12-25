@@ -76,6 +76,12 @@ cursor:pointer;
   background: #f10b6b;
   color:#fff;
 }
+textarea{
+  resize: none;
+  border:none;
+  /* border-radius:10px; */
+  outline: none;
+}
 .fa-lightbulb{
   color:#3d0975;
 }
@@ -379,7 +385,31 @@ transition:0.2s;
   /* transform:scale(1.1); */
   opacity:0.8;
 }
-
+form{
+  display:flex;
+  gap:20px;
+  flex-direction: column;
+}
+.input-name{
+width:320px;
+}
+textarea{
+  width:320px;
+}
+.send{
+  width:100px;
+  margin-left:-1px;
+}
+.lighter{
+  font-weight: lighter;
+  margin-top:10px;
+  margin-left:0px;
+  font-size:10px;
+  letter-spacing:1px;
+}
+form{
+  margin-top:25px;
+}
 @media (max-width:1038px) {
 body{
   /* background: #20e03e; */
@@ -490,8 +520,18 @@ margin-left:20px;
 .logo{
 
 }
+.input-name{
 
 }
+textarea{
+
+}
+.send{
+
+
+}
+}
+
 
 .anime{
   animation:right-to-left ease-in;

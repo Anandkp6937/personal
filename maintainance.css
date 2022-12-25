@@ -15,3 +15,8 @@ color:
 span{
   color:#FF4949;
 }
+@media screen (max-width:640px){
+.maintainance{
+  margin-left:100px;
+}
+}

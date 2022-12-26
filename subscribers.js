@@ -12,8 +12,9 @@ function sendMail(){
     document.getElementById("name").value="";
     // document.getElementById("message").value="";
     console.log(res);
+
     // alert("message send");
   })
   .catch((err)=>console.log(err));
-
+alert(err);
 }

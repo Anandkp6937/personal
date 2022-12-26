@@ -398,6 +398,7 @@ width:320px;
 }
 textarea{
   width:320px;
+  height:70px;
 }
 .send{
   width:100px;
@@ -407,7 +408,7 @@ textarea{
   font-weight: lighter;
   margin-top:10px;
   margin-left:10px;
-  font-size:20px;
+  font-size:15px;
   opacity:0.5;
   letter-spacing:1px;
 }
@@ -419,7 +420,7 @@ body{
   /* background: #20e03e; */
 }
 .lighter{
-  font-size:3px;
+  font-size:10px;
 }
 .container1{
   flex-direction: column;
@@ -526,7 +527,7 @@ margin-left:20px;
 }
 .review h2,
 .review h3{
-  margin-right:30px;
+  margin-left:10px;
 }
 .logo{
 
@@ -560,10 +561,7 @@ textarea{
   body{
   /* background:#571528; */
 }
-.lighter{
-  font-size:19px;
-  opacity:.2;
-}
+
 .info p,
 .skills p{
   font-size:20px;

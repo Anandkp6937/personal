@@ -6,6 +6,7 @@ const like=document.querySelector(".like");
 const send=document.querySelector(".send");
 const inputname=document.querySelector(".input-name");
 const navigationbar=document.querySelector(".navigation-bar");
+const ul=document.querySelector(".ul-list");
 function autoclose(){
   setTimeout(()=>{
     navigationbar.style.display='none';
@@ -14,7 +15,6 @@ function autoclose(){
 }
 
 menu.addEventListener("click",function(){
-  navigationbar.classList.add("anime");
   navigationbar.style.display='flex';
 
   autoclose()

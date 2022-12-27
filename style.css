@@ -121,7 +121,7 @@ opacity:0.5;
 
 }
 .navigation-bar{
-  transition:.7s;
+  transition:1s;
   display: flex;
 }
 .container1 img{
@@ -465,10 +465,12 @@ body{
   font-size:10px;
 }
 .navigation-bar{
-  transition:.7s;
-  display: flex;
+  transition:1s;
+  /* display: flex; */
 }
-
+.navigation-bar ul{
+transition:1s;
+}
   .container1 img{
 
     max-width:75%;
@@ -548,10 +550,7 @@ textarea{
 }
 
 
-.anime{
-  animation:right-to-left ease-in;
 
-}
 @keyframes right-to-left{
 100%{
   transform:rotate(20deg);

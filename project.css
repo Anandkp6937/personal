@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&family=Sevillana&display=swap');
+:root{
+  --font-paragraph: 'Sono', sans-serif;
+
+}
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+header{
+  text-align: left;
+background: #6576db;
+width:100%;
+}
+header h1{
+  padding:20px;
+  color:#fff;
+  font-family:var(--font-paragraph);
+  font-weight: bold;
+}
+.project-web{
+
+  margin-top:20px;
+  padding-left: 20px;
+  display: grid;
+  grid-template-columns:repeat(4,1fr);
+/* text-align: center; */
+gap:25px;
+}
+.col{
+  /* background: #5201f0; */
+    background: #90bede;
+  /* border:1px solid #5201f0; */
+  border-radius: 10px;
+}
+img{
+width:100%;
+height:250px;
+}
+.col .btns{
+  /* text-align: center; */
+}
+button{
+  padding:10px 20px;
+  position: relative;
+  top:0;
+  left:25%;
+}

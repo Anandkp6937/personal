@@ -6,6 +6,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 /* @import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Lacquer&family=Sevillana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,100;1,300&display=swap');
 :root{
   --background-color:#FDFFAB;
   --color:#521262;
@@ -20,6 +22,8 @@
   --font-big:'Montserrat', sans-serif;
   --font-normal:'Inter', sans-serif;
     --font-paragraph: 'Sono', sans-serif;
+    /* --font-paragraph:'Raleway', sans-serif;; */
+    /* --font-paragraph:'Roboto', sans-serif; */
 }
 
 *{
@@ -201,7 +205,8 @@ font-family:var(-font-typing);
 .review h3{
   opacity: 0.6;
   color:#000;
-  font-size:var(--font-large);
+  /* font-size:var(--font-large); */
+  font-size:20px;
   margin-left:70px;
   margin-top:20px;
 }
@@ -211,13 +216,16 @@ font-family:var(-font-typing);
   line-height:70px;
   color:#000;
   margin-left:70px;
-  font-family:var(--font-paragraph);
+  /* font-family:var(--font-paragraph); */
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
   font-size:var(--font-large);
 }
 .skills p{
 font-weight: bold;
 max-width:80%;
 }
+
 #p{
 font-weight: lighter;
 margin-bottom:50px;

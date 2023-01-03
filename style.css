@@ -21,8 +21,8 @@
   --font-links:'Fredoka One', cursive;
   --font-big:'Montserrat', sans-serif;
   --font-normal:'Inter', sans-serif;
-    --font-paragraph: 'Sono', sans-serif;
-    /* --font-paragraph:'Raleway', sans-serif;; */
+    /* --font-paragraph: 'Sono', sans-serif; */
+    --font-paragraph:'Raleway', sans-serif;
     /* --font-paragraph:'Roboto', sans-serif; */
 }
 
@@ -355,6 +355,7 @@ box-shadow: 10px 10px 48px -8px rgba(0,0,0,0.46);
   font-family: var(--font-paragraph);
   color:#000;
   margin-left:10px;
+  font-size: 20px;
 }
 .reviewform{
 display: flex;

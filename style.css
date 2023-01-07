@@ -243,9 +243,9 @@ font-size:30px;
 box-shadow: 10px 10px 41px 0px rgba(0,0,0,0.52); */
 padding:50px;
 margin:21px;
-color:#1d1010;
-font-weight:bolder;
-  font-family: 'Raleway', sans-serif;
+color:#072d48;
+/* font-weight:bolder; */
+  font-family: var(--font-links);
   line-height:25px;
 
 }

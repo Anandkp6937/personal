@@ -242,6 +242,7 @@ margin-bottom:50px;
   display: flex;
   flex-direction: column;
   margin-right:50px;
+  margin-left: 50px;
   gap:1.2rem;
   -webkit-box-shadow: 10px 10px 48px -8px rgba(0,0,0,0.46);
 -moz-box-shadow: 10px 10px 48px -8px rgba(0,0,0,0.46);

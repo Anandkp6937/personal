@@ -242,10 +242,9 @@ font-size:30px;
 /* -webkit-box-shadow: 10px 10px 41px 0px rgba(0,0,0,0.52);
 -moz-box-shadow: 10px 10px 41px 0px rgba(0,0,0,0.52);
 box-shadow: 10px 10px 41px 0px rgba(0,0,0,0.52); */
-
+padding:50px;
 margin:21px;
-margin-bottom: 10px;
-padding-bottom:10px;
+
 /* color:#140435; */
 color:#000;
 font-weight:light;
@@ -553,6 +552,11 @@ transition:1s;
 
   margin-left:10px;
   margin-right:10px;
+}
+#techy{
+  margin-bottom: 10px;
+  padding-bottom:10px;
+  padding: 0px;
 }
 .project h2,
 .project h3{

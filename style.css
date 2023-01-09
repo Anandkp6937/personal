@@ -707,6 +707,7 @@ display: none;
 
 
 }
+
 .response {
   margin-left:20px;
   padding:7px;
@@ -720,13 +721,16 @@ display: none;
 width:100%;
 
 }
+.response textarea{
+width:100%;
+}
 .response input[type="submit"]{
   border-radius:10px;
   text-align: center;
-  margin-left:180px;
-}
-.reviewform{
 
+}
+.review{
+margin-top:50px;
 }
 .form{
     margin-top:5px;

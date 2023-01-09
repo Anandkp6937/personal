@@ -236,7 +236,7 @@ max-width:80%;
 }
 
 #techy{
-font-size:30px;
+font-size:40px;
 /* margin-left: 50px; */
 /* -webkit-box-shadow: 10px 10px 41px 0px rgba(0,0,0,0.52);
 -moz-box-shadow: 10px 10px 41px 0px rgba(0,0,0,0.52);
@@ -245,12 +245,16 @@ padding:50px;
 margin:21px;
 color:#072d48;
 /* font-weight:bolder; */
+font-weight: normal;
   font-family: var(--font-links);
   line-height:25px;
 
 }
 
+#techy span{
+  font-weight: normal;
 
+}
 .skill{
   display: flex;
   flex-direction: column;
@@ -552,7 +556,9 @@ transition:1s;
   margin-bottom: 10px;
   padding-bottom:10px;
   padding: 0px;
-  margin-bottom: 20px;
+  font-size:30px;
+  line-height:30px;
+  margin-bottom: 35px;
 }
 .project h2,
 .project h3{
@@ -716,6 +722,6 @@ display: none;
 }
 #techy{
   padding-right: 0px;
-  font-size:19px;
+  font-size:30px;
 }
 }

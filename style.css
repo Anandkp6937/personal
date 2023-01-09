@@ -713,6 +713,8 @@ display: none;
   padding:7px;
   width:70%;
   border-radius: 10px;
+  height:300px;;
+  padding-bottom:50px;
 
 }
 .response  input[type="email"]
@@ -727,10 +729,13 @@ width:100%;
 .response input[type="submit"]{
   border-radius:10px;
   text-align: center;
+margin-left:50%;
+
 
 }
 .review{
 margin-top:50px;
+height:470px;
 }
 .form{
     margin-top:5px;
